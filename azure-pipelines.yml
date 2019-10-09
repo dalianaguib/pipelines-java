@@ -25,4 +25,4 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
-    testResultsFiles: '**/- task: Maven@3
+    testResultsFiles: '**/- task: Maven@3'
